@@ -1,0 +1,5 @@
+import type {Metadata} from 'next';
+import {PageIntro} from '@/components/Shared';
+import {ContactForm} from '@/components/ContactForm';
+export const metadata:Metadata={title:'Get in touch'};
+export default function Contact(){return <><PageIntro label="SAY HELLO" title="Let’s make a coffee connection.">Have an event in mind? A place we should park? Or just a good story to share? We’d love to hear it.</PageIntro><section className="contact-layout section"><div><p className="eyebrow">FIND US AROUND</p><h2>Ogden, Utah.<br/><em>And a little beyond.</em></h2><p>Our wheels are always turning. Our regular stops, opening hours, and contact details will be shared here soon.</p><div className="contact-note"><span>✳︎</span><div><h3>Bring us to your next event.</h3><p>Include your date, location, and estimated guest count so we can start planning.</p></div></div><p className="fine-print">This is a preview contact form. Messages aren’t sent or stored yet. A contact address and delivery integration will be added before launch.</p></div><ContactForm/></section></>}
