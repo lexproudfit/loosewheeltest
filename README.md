@@ -47,3 +47,17 @@ Install dependencies with `npm ci`, run `npm run build`, and launch `npm start` 
 - `components/`: shared navigation, footer, imagery, calls to action, and interactive contact form.
 
 The site uses system sans-serif and serif fonts, so no remote font service is needed. Navigation includes a mobile menu, current-page state, keyboard focus styles, and a skip-to-content link.
+
+## Brand colors
+
+The shared palette is defined in `app/globals.css`:
+
+| Color | Hex | Use |
+| --- | --- | --- |
+| Sea green | `#003d39` | Main brand color, text, buttons, dark sections |
+| Yellow | `#ffcc00` | Calls to action and highlights |
+| Off white | `#fffae3` | Page background and text on dark surfaces |
+| Red | `#dd1b2a` | Status dot and keyboard focus outline |
+| Bronze | `#8c7329` | Heading emphasis, small accents, button hover |
+
+The original Loosey mascot is bundled in `public/loosey.svg` and displayed through `components/Loosey.tsx` on Home and About. Its supplied paths and colors are preserved. The original wordmark is bundled in `public/loose-wheel-logo.svg` and reused in the header and footer through `components/Logo.tsx`. Cadet webfont files are still pending; the site currently uses system fonts.
