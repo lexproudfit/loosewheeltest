@@ -1,2 +1,2 @@
 # loosewheeltest
-# loose wheel is coffee truck serving Ogden Utah
+# Loose Wheel is coffee truck serving Ogden Utah
